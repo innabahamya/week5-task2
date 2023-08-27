@@ -1,0 +1,55 @@
+nav {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    /* text-decoration: none; */
+    font-size: 20px;
+  }
+
+  .menu{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  body {
+    background: rgb(236, 220, 176);
+    text-align: center;
+  }
+  .description{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+  }
+
+  h1{
+    font-family: 'Libre+Baskerville';
+    font-size: 38px;
+    font-style: normal;
+  }
+
+  p{
+    font-size: 24px;
+  }
+
+  .article {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .content {
+    padding: 50px;
+  }
+
+  .scale {
+    transition: 1s; /* Время эффекта */
+  }
+  .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
